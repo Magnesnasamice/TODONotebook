@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "todonote:notebook"
+    }
+  ],
+  "result": {
+    "item": "todonote:notebook",
+    "count": 1
+  }
+}

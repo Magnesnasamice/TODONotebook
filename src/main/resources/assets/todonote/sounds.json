@@ -1,0 +1,12 @@
+{
+  "notebook_open": {
+    "sounds": [
+      "todonote:open"
+    ]
+  },
+  "notebook_close": {
+    "sounds": [
+      "todonote:close"
+    ]
+  }
+}

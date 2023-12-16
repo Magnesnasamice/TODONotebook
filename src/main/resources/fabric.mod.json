@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "todonote",
+	"version": "0.0.1",
+	"name": "TODO Notebook",
+	"description": "Adds a todo notebook that allows you to make lists of tasks and even checking lets you make list of items you need!!!",
+	"authors": [
+		"magnesnasamice"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/todonote/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.magnesnasamice.Init"
+		],
+		"client": [
+			"net.magnesnasamice.InitClient"
+		],
+		"fabric-datagen": [
+			"net.magnesnasamice.InitDataGenerator"
+		]
+	},
+	"mixins": [
+      "todonote.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "itemgroup.todonote.creative_tab": "TODO Notebook",
+  "item.todonote.notebook": "Notebook",
+  "item.todonote.notebook_used": "Written Notebook",
+
+  "key.todonote.keybindCategory": "TODO Notebook",
+  "key.todonote.open_notebook": "Open notebook",
+  "message.todonote.no_notebook_in_inventory": "You don't have a notebook!"
+}
