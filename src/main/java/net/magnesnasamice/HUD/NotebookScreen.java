@@ -22,6 +22,11 @@ public class NotebookScreen extends Screen {
     }
 
     @Override
+    public boolean shouldPause() {
+        return false;
+    }
+
+    @Override
     protected void init() {
         super.init();
 
@@ -36,6 +41,6 @@ public class NotebookScreen extends Screen {
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
         RenderSystem.setShaderTexture(0, NOTEBOOK_TEXTURE);
 
-        context.drawTexture(NOTEBOOK_TEXTURE, 10 ,10, 0, 0, width, height);
+        context.drawTexture(NOTEBOOK_TEXTURE, width/2 ,height/2, 0, 0, width, height);
     }
 }
